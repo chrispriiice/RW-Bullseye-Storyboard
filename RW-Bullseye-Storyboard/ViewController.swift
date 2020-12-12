@@ -34,7 +34,6 @@ class ViewController: UIViewController {
         var points = 100 - difference
         
         score += points
-        round += 1
         
         let title: String
         if difference == 0 {
@@ -55,14 +54,17 @@ class ViewController: UIViewController {
         
         let alert = UIAlertController(title: title, message: message, preferredStyle: .alert)
     
-        let action = UIAlertAction(title: "OK", style: .default, handler: nil)
+        let action = UIAlertAction(title: "OK", style: .default, handler: {
+            action in
+            self.startNewRound()
+            self.updateLabels()
+        })
         
         alert.addAction(action)
         
         present(alert, animated: true, completion: nil)
         
-        startNewRound()
-        updateLabels()
+        
     }
     
     @IBAction func sliderMoved(_ slider: UISlider) {
