@@ -41,7 +41,7 @@ class ViewController: UIViewController {
             points += 100
         } else if difference < 5 {
             title = "You almost had it!"
-            if points == 1 {
+            if difference == 1 {
                 points += 50
             }
         } else if difference < 10 {
@@ -71,11 +71,19 @@ class ViewController: UIViewController {
         currentValue = Int(slider.value.rounded())
     }
     
+    @IBAction func startOverButtonTapped(_ sender: Any) {
+        round = 0
+        score = 0
+        startNewRound()
+        updateLabels()
+    }
+    
     func startNewRound() {
         round += 1
         targetValue = Int.random(in: 1...100)
         currentValue = 50
         slider.value = Float(currentValue)
+        updateLabels()
     }
     
     func updateLabels() {
