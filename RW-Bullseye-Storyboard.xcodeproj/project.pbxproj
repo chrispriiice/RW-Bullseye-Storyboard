@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		1B2857422585A52500B64479 /* AboutViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B2857412585A52500B64479 /* AboutViewController.swift */; };
+		1B2857452585A6D300B64479 /* AuthorViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B2857442585A6D300B64479 /* AuthorViewController.swift */; };
 		1B810D4423F750F500836EDB /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B810D4323F750F500836EDB /* AppDelegate.swift */; };
 		1B810D4623F750F500836EDB /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B810D4523F750F500836EDB /* SceneDelegate.swift */; };
 		1B810D4823F750F500836EDB /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B810D4723F750F500836EDB /* ViewController.swift */; };
@@ -18,6 +19,7 @@
 
 /* Begin PBXFileReference section */
 		1B2857412585A52500B64479 /* AboutViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AboutViewController.swift; sourceTree = "<group>"; };
+		1B2857442585A6D300B64479 /* AuthorViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthorViewController.swift; sourceTree = "<group>"; };
 		1B810D4023F750F500836EDB /* RW-Bullseye-Storyboard.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "RW-Bullseye-Storyboard.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		1B810D4323F750F500836EDB /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		1B810D4523F750F500836EDB /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -62,6 +64,7 @@
 				1B810D4523F750F500836EDB /* SceneDelegate.swift */,
 				1B810D4723F750F500836EDB /* ViewController.swift */,
 				1B2857412585A52500B64479 /* AboutViewController.swift */,
+				1B2857442585A6D300B64479 /* AuthorViewController.swift */,
 				1B810D4923F750F500836EDB /* Main.storyboard */,
 				1B810D4C23F750F600836EDB /* Assets.xcassets */,
 				1B810D4E23F750F600836EDB /* LaunchScreen.storyboard */,
@@ -142,6 +145,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				1B810D4823F750F500836EDB /* ViewController.swift in Sources */,
+				1B2857452585A6D300B64479 /* AuthorViewController.swift in Sources */,
 				1B810D4423F750F500836EDB /* AppDelegate.swift in Sources */,
 				1B2857422585A52500B64479 /* AboutViewController.swift in Sources */,
 				1B810D4623F750F500836EDB /* SceneDelegate.swift in Sources */,
