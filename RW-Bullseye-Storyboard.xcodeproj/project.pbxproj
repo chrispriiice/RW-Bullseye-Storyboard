@@ -15,6 +15,7 @@
 		1B810D4B23F750F500836EDB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1B810D4923F750F500836EDB /* Main.storyboard */; };
 		1B810D4D23F750F600836EDB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1B810D4C23F750F600836EDB /* Assets.xcassets */; };
 		1B810D5023F750F600836EDB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1B810D4E23F750F600836EDB /* LaunchScreen.storyboard */; };
+		1BC522862589A59D0035A323 /* BullsEye.html in Resources */ = {isa = PBXBuildFile; fileRef = 1BC522852589A59D0035A323 /* BullsEye.html */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -28,6 +29,7 @@
 		1B810D4C23F750F600836EDB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		1B810D4F23F750F600836EDB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		1B810D5123F750F600836EDB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1BC522852589A59D0035A323 /* BullsEye.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = BullsEye.html; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -69,6 +71,7 @@
 				1B810D4C23F750F600836EDB /* Assets.xcassets */,
 				1B810D4E23F750F600836EDB /* LaunchScreen.storyboard */,
 				1B810D5123F750F600836EDB /* Info.plist */,
+				1BC522852589A59D0035A323 /* BullsEye.html */,
 			);
 			path = "RW-Bullseye-Storyboard";
 			sourceTree = "<group>";
@@ -132,6 +135,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				1B810D5023F750F600836EDB /* LaunchScreen.storyboard in Resources */,
+				1BC522862589A59D0035A323 /* BullsEye.html in Resources */,
 				1B810D4D23F750F600836EDB /* Assets.xcassets in Resources */,
 				1B810D4B23F750F500836EDB /* Main.storyboard in Resources */,
 			);
